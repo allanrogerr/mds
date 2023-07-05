@@ -395,7 +395,7 @@ const DataTable: FC<DataTableProps> = ({
                         </Fragment>
                       )}
                       overscanRowCount={10}
-                      rowHeight={40}
+                      rowHeight={400}
                       width={width}
                       rowCount={records.length}
                       rowGetter={({ index }) => records[index]}
